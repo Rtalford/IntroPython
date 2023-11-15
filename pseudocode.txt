@@ -1,0 +1,13 @@
+instructions = step1 + step2 + step3 + step4 + step5
+step1: enter car, put on seatbelt 
+step2: check all mirrors and start engine
+step3: press  on brakes
+step4: move from "park" to "drive" 
+step5: slowly press on gas and manuever steering wheel accordingly
+
+
+step1: gather all ingredients (bread, jelly, peanut butter, knife)
+step2: using knife, apply jelly to one side of a slice of bread 
+step3: using knife, apply peanut to one side of another slice of bread 
+step4: put the two slices of bread together, with the jelly side & peanut butter side touching each other 
+step5: clean area. 
