@@ -100,16 +100,16 @@
 # 7 8 9
 # '''
 
-# lis = [
-#   [1,2,3],
-#   [4,5,6],
-#   [7,8,9]
-#   ]
+lis = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+  ]
 
-# for rows in lis: #looping through our rows
-#   for columns in rows:
-#     print(columns, end= ' ')
-#   print() #get our returns for formatting
+for rows in lis: #looping through our rows
+  for columns in rows:
+    print(columns, end= ' ')
+  print() #get our returns for formatting
 
 
 
@@ -157,15 +157,15 @@
 
 # # List Comprehension
 
-vegetables = ['broccoli', 'kale', 'onion', 'garlic', 'kale']
+# vegetables = ['broccoli', 'kale', 'onion', 'garlic', 'kale']
 
-#new_list = [x for x in orginal_list if condition]
-short_vegetables = [v for v in vegetables if len(v) < 6]
+# #new_list = [x for x in orginal_list if condition]
+# short_vegetables = [v for v in vegetables if len(v) < 6]
 
-for v in vegetables:
-  if len(v) < 6:
-    short_vegetables.append(v)
-print(short_vegetables)
+# for v in vegetables:
+#   if len(v) < 6:
+#     short_vegetables.append(v)
+# print(short_vegetables)
 
 
 # # For Loop
@@ -179,28 +179,31 @@ print(short_vegetables)
 
 # # For Loop
 
-students = ['samuel', 'tanja', 'majestic', 'judith', 'julie']
-students_without_letter_j = []
+# students = ['samuel', 'tanja', 'majestic', 'judith', 'julie']
+# students_without_letter_j = []
 
-for s in students: 
-  if 'j' not in s:
-    students_without_letter_j.append(s)
-print(students_without_letter_j)
+# for s in students: 
+#   if 'j' not in s:
+#     students_without_letter_j.append(s)
+# print(students_without_letter_j)
 
 # # Using list comprehension, create a new list that contains any students without the letter j
 # # List Comprehension - new_list = [x for x in original_list if condition]
 # # students = ['samuel', 'majestic', 'judith', 'julie']
 
+# students = ['samuel', 'majestic', 'judith', 'julie']
+# new_list = [x for x in students if not x.count('s')]
+# print(new_list)
 
-# # List Comprehension - new_list = [expression for x in original_list]
-original_list = [1, 2, 3, 4, 5, 6]
+# # # List Comprehension - new_list = [expression for x in original_list]
+# original_list = [1, 2, 3, 4, 5, 6]
 
-# # Using list comprehension, create new list with 1 added to each number (no append needed)
+# # # Using list comprehension, create new list with 1 added to each number (no append needed)
 
-new_list = [x + 1 for x in original_list]
-print(new_list)
+# new_list = [x + 1 for x in original_list]
+# print(new_list)
 
-# '''
+# # '''
 # # Exercise
 # # You are given a list of integers. Write a Python program to create a new list that only includes the even numbers from the original list.
 # # You can do this in one line with a list comprehension.
@@ -210,15 +213,19 @@ print(new_list)
 # '''
 
 #For loop 
-original_list = [34, 57, 81, 92, 2, 13]
-new_list = []
-for o in original_list:
-  if o % 2 == 0:
-    new_list.append(o)
-print(new_list)
+# original_list = [34, 57, 81, 92, 2, 13]
+# new_list = []
+# for o in original_list:
+#   if o % 2 == 0:
+#     new_list.append(o)
+# print(new_list)
+
+
 
 #List comprehension
-new_list = [x for x in original_list if x %2 == 0]
+# new_list = [x for x in original_list if x %2 == 0]
+
+
 
 # '''
 # # Exercise
@@ -230,9 +237,9 @@ new_list = [x for x in original_list if x %2 == 0]
 # # over_5_purchases = ['Finn', 'Simone', 'Aaron', 'Dominic']
 # # Output: ['Dominic', 'Simone']
 
-over_60_years = ['Dominic', 'Linda', 'Simone', 'Swathi', 'Olaf']
-over_5_purchases = ['Finn', 'Simone', 'Aaron', 'Dominic']
+# over_60_years = ['Dominic', 'Linda', 'Simone', 'Swathi', 'Olaf']
+# over_5_purchases = ['Finn', 'Simone', 'Aaron', 'Dominic']
 
-customer_discount = []
+# customer_discount = []
 
-for c in over_60_years
+# for c in over_60_years
