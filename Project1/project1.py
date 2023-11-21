@@ -9,8 +9,10 @@ password = 'passcode'
 
 if user_input  == username:
   if password_input == password: 
-    print( "Login Successful")
+    print( "Your Login was Successful")
   else: 
-    print("Incorrect username or password")
+    print("Your username or password is incorrect")
+
+
 
 #Once both valid, store them as variables. Then ask the user to log in using the username and password they chose.
