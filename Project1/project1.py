@@ -16,3 +16,6 @@ if user_input  == username:
 
 
 #Once both valid, store them as variables. Then ask the user to log in using the username and password they chose.
+
+# use strip string method to sanitize user input
+# no_spaces = first_name.strip()

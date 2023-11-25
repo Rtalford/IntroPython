@@ -27,6 +27,11 @@ print(4 == 2 and 1 == 8) # false becasue both are false
 print (5 == 5 or 5 == 3) # true because with "or" only one statement has to be true
 
 #not 
+x = y 
+y = 7
+#Is x less than y? 
+print(x < 7)
+print(not x < y)
 
 # is 
 print (4 is 4) # These are the same
