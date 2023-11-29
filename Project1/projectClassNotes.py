@@ -13,8 +13,8 @@ while True:
   print(username) # use print statement to test
   print(password) # use print statement to test 
 
-  if 'admin' in taken_usernames:
-    print("Username taken")
+  if username in taken_usernames:
+    print("Username taken. Please select a new Username")
   else: 
     print("Username Taken")
 
