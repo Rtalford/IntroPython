@@ -396,6 +396,10 @@ print(food)
 # result = furniture[start:stop]
 # print(result)
 
+# furniture = 'couch'
+# result = (furniture[-3:])
+# print(result)
+
 
 # Assign the string "Apple Pie" to variable dessert. Create and print a new string that captures
 # every other letter in the string dessert

@@ -61,7 +61,7 @@
 # user_input = input("What is your number? ")
 # if '.' in user_input:
 #     print("unknown")
-# elif (int(user_input % 2)) != 0: 
+# elif (int(user_input) % 2) != 0: 
 #   print("This is even")
 # elif (int(user_input) % 2) == 0: 
 #    print("This is even")
@@ -107,19 +107,19 @@
 
 # print((False or True))
 
-num = 5 
-if num % 2 == 1: 
-  if num < 10: 
-    if num > 0: 
-      print("This is a single-digit odd number.")
+# num = 5 
+# if num % 2 == 1: 
+#   if num < 10: 
+#     if num > 0: 
+#       print("This is a single-digit odd number.")
 
-num = 5 
-if num % 2 == 1 and num < 10 and num >0: 
-  print("This is a single-digit odd number")
+# num = 5 
+# if num % 2 == 1 and num < 10 and num >0: 
+#   print("This is a single-digit odd number")
 
-#Ternary operators 
-x = 20
-y = 30
+# #Ternary operators 
+# x = 20
+# y = 30
 
 # if x > y: 
 #   print ("X is bigger")
@@ -130,4 +130,3 @@ y = 30
 
 #above can be rewritten: 
 
-result

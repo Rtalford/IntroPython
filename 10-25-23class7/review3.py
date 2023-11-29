@@ -402,3 +402,11 @@
 
 # # Lets write a loop that will take user input, and keep prompting for the input until the user adds that input
 
+
+
+
+# stop = len(furniture) #always go to the end of my string
+# start = stop -3 #always go to 3 characters less than the end
+
+# result = furniture[start:stop]
+# print(result)
