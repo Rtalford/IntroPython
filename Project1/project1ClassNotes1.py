@@ -1,24 +1,24 @@
 # create username & password variables 
-#intialization 
+#intialization : outside while loop
 
 username = 'user'
 password = 'passcode'
 
 taken_usernames = ['admin','admin123','root']
 
-while True: 
-  # get the inputs
+while True: #will run until done
+  # get the inputs #1
   user_input = input('What is your username? ')
   password_input = input('What is your password? ')
-  print(username) # use print statement to test
-  print(password) # use print statement to test 
+  print(user_input) # use print statement to test
+  print(password_input) # use print statement to test 
 
   if username in taken_usernames:
     print("Username taken. Please select a new Username")
   else: 
     print("Username Taken")
 
-  # start username testing
+  # start username testing 
   #must start with a lowercase letter: index[0] on a string/tested first string to see if it is upper or lowercase - bracket notion, index zero   
   #only has letters, numbers and underscores - isalnum
 
@@ -26,9 +26,9 @@ while True:
 
   break
 
-  # do your username testing 
+  # do your username testing #2
 
-  #do your password testing
+  #do your password testing #3
 
   pass
 
