@@ -19,3 +19,11 @@ if user_input  == username:
 
 # use strip string method to sanitize user input
 # no_spaces = first_name.strip()
+
+#password requirements: 
+# least 8 characters long : len
+# least one uppercase: 
+# least one lowercase
+# least one digit
+# contains at least one of these characters: !, ?, @, #, $, ^, &, *, _, -
+# Doesn't contain any spaces: use strip string method to sanitize user input: no_spaces = first_name.strip()
