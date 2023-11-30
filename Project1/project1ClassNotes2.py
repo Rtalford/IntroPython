@@ -12,7 +12,7 @@ while True: #will run until done
   password_input = input('What is your password? ')
   print(username) # use print statement to test
   print(password) # use print statement to test 
-  continue
+  break
 
   # if username in taken_usernames:
   #   print("Username taken. Please select a new Username")
