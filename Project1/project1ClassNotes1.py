@@ -10,8 +10,9 @@ while True: #will run until done
   # get the inputs #1
   user_input = input('What is your username? ')
   password_input = input('What is your password? ')
-  print(user_input) # use print statement to test
-  print(password_input) # use print statement to test 
+  print(username) # use print statement to test
+  print(password) # use print statement to test 
+  continue
 
   if username in taken_usernames:
     print("Username taken. Please select a new Username")

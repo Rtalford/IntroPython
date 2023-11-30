@@ -20,6 +20,16 @@ if user_input  == username:
 # use strip string method to sanitize user input
 # no_spaces = first_name.strip()
 
+#Username requirements: 
+# # start username testing 
+
+  #must start with a lowercase letter: index[0] on a string/tested first string to see if it is upper or lowercase - bracket notion, index zero   
+  #only has letters, numbers and underscores - isalnum
+
+  #taken_usernames = ['admin','admin123','root']
+
+
+
 #password requirements: 
 # least 8 characters long : len
 # least one uppercase: 
