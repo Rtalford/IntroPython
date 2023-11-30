@@ -16,6 +16,10 @@ while True: #will run until done
   print(password) # use print statement to test 
   continue
 
+  # start username testing #2
+  #must start with a lowercase letter: index[0] on a string/tested first string to see if it is upper or lowercase - bracket notion, index zero   
+  #only has letters, numbers and underscores - isalnum
+
   if username in taken_usernames:
     print("Username taken. Please select a new Username")
   else: 
@@ -26,19 +30,18 @@ while True: #will run until done
   else: 
     print("Invalid username. Please select a new username")
 
-  # start username testing 
-  #must start with a lowercase letter: index[0] on a string/tested first string to see if it is upper or lowercase - bracket notion, index zero   
-  #only has letters, numbers and underscores - isalnum
+  if user.isnalum():
+    print("username")
+  else: 
+    print("Invalid username. Please select a new username")
 
+# still need code to check for "_"
 
-  # start password testing 
+  # start password testing #3
 
   break
 
-  # do your username testing #2
-
-  #do your password testing #3
-
+  
   pass
 
 # Logging In 
