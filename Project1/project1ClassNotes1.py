@@ -26,18 +26,20 @@ while True: #will run until done
     print(username)
 
   if user[0].islower():
-    print("username")
+    print(username)
   else: 
     print("Invalid username. Please select a new username")
 
   if user.isnalum():
-    print("username")
+    print(username)
   else: 
     print("Invalid username. Please select a new username")
 
-# still need code to check for "_"
+# still need a code to check for "_"
 
   # start password testing #3
+
+
 
   break
 
