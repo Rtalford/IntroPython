@@ -10,8 +10,6 @@ valid_character = ['_']
 
 special_symbols = ['!', '?', '@', '#', '$', '^', '&', '*', "_", "-"]
 
-
-
 while True: #will run until done
   # get the inputs #1
   user_input = input('What is your username? ')
