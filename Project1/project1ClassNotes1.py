@@ -6,6 +6,10 @@ password = 'passcode'
 
 taken_usernames = ['admin','admin123','root']
 
+invalid_character = ['_']
+
+special_symbols = ['!', '?', '@', '#', '$', '^', '&', '*', "_", "-"]
+
 
 
 while True: #will run until done
@@ -43,7 +47,8 @@ while True:
    if len(password) <= 8: 
      if password.isupper() > 1 or not password.isupper(): 
        if password.islower() > 1 or not password.islower(): 
-         
+         if password.isdigit() < 1: 
+           
 
 # if len(password) >= 8: 
 # 
