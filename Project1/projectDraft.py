@@ -31,9 +31,9 @@ if user_input  == username:
 
 
 #password requirements: 
-# least 8 characters long : len
+# least 8 characters long : if len(password) >= 8: 
 # least one uppercase: .isupper() > 1 or not .isupper()
 # least one lowercase: .islower() > 1 or not .islower() 
 # least one digit: .isdigit() < 1: 
 # contains at least one of these characters: !, ?, @, #, $, ^, &, *, _, -
-# Doesn't contain any spaces: use strip string method to sanitize user input: no_spaces = password.                                                                                                          strip()
+# Doesn't contain any spaces: use strip string method to sanitize user input: no_spaces = password.strip()

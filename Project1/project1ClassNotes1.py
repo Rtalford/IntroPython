@@ -6,7 +6,7 @@ password = 'passcode'
 
 taken_usernames = ['admin','admin123','root']
 
-invalid_character = ['_']
+valid_character = ['_']
 
 special_symbols = ['!', '?', '@', '#', '$', '^', '&', '*', "_", "-"]
 
@@ -24,10 +24,6 @@ while True: #will run until done
   #must start with a lowercase letter: index[0] on a string/tested first string to see if it is upper or lowercase - bracket notion, index zero   
   #only has letters, numbers and underscores - isalnum
 
-  if username in taken_usernames:
-    print("Username taken. Please select a new Username")
-  else: 
-    print(username)
 
   if user[0].islower():
     print(username)
@@ -39,6 +35,11 @@ while True: #will run until done
   else: 
     print("Invalid username. Please select a new username")
 
+  if username in taken_usernames:
+    print("Username taken. Please select a new Username")
+  else: 
+    print(username)
+
 # still need a code to check for "_"
 
   # start password testing #3
@@ -48,16 +49,15 @@ while True:
      if password.isupper() > 1 or not password.isupper(): 
        if password.islower() > 1 or not password.islower(): 
          if password.isdigit() < 1: 
-           
-
-# if len(password) >= 8: 
-# 
-#  
-
-
+           if special_symbols <= 1 in password: 
+             if password.strip():
+                print(password)
+              else: 
+               print("Invalid password")
+   
+          
   break
 
-  
   pass
 
 # Logging In 
