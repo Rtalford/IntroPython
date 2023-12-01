@@ -39,6 +39,15 @@ while True: #will run until done
 
   # start password testing #3
 
+while True: 
+   if len(password) <= 8: 
+     if password.isupper() > 1 or not password.isupper(): 
+       if password.islower() > 1 or not password.islower(): 
+         
+
+# if len(password) >= 8: 
+# 
+#  
 
 
   break
