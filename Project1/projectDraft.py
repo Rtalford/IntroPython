@@ -28,6 +28,9 @@ if user_input  == username:
 
   #taken_usernames = ['admin','admin123','root']
 
+  # valid_character = ['_']
+
+  # special_symbols = ['!', '?', '@', '#', '$', '^', '&', '*', "_", "-"]
 
 
 #password requirements: 

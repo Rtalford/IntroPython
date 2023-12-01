@@ -23,8 +23,6 @@ If they are both valid, store them as variables. Then ask the user to log in usi
 # Solution(s): We can serve error messages from strings in variables. We can serve error messages from a collection instrument such as a list or a tuple. Bad practice would be hardcoding error messages in our code. Though it works, it would be come difficult to handle and manage should a program be scaled up in the future or new error messages are added in the future with features. Handle this before you begin your while loop
 # Test, push code, test push code, test push code :)
 
-
-
 # Problem: How are we testing the username requirements?
 # Solution(s): It must start with a lowercase letter and only contain letters, numbers, and underscores.
 #   -String methods? Regular Expression? Both are acceptable solutions. Regex is more advanced and will save you a few lines of code
