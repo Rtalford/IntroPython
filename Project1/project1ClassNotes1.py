@@ -19,7 +19,15 @@ while True: #will run until done
   if user_input[0].islower() == False:
     print("Invalid username. Please select a new username")
     continue
+
+  # testing for "taken usernames"
+  if user_input in taken_usernames:
+    print("Username taken. Please select a new Username")
+    continue
+
   print("I am here")
+
+
 
 
 #   # start username testing #2
@@ -34,8 +42,7 @@ while True: #will run until done
 #   else: 
 #     print("Invalid username. Please select a new username")
 
-#   if username in taken_usernames:
-#     print("Username taken. Please select a new Username")
+
 #   else: 
 #     print(username)
 
