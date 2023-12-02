@@ -15,17 +15,19 @@ while True: #will run until done
   user_input = input('What is your username? ')
   password_input = input('What is your password? ')
  
-  continue
+  #testing for capital letter 
+  if user_input[0].islower() == False:
+    print("Invalid username. Please select a new username")
+    continue
+  print("I am here")
+
 
 #   # start username testing #2
 #   #must start with a lowercase letter: index[0] on a string/tested first string to see if it is upper or lowercase - bracket notion, index zero   
 #   #only has letters, numbers and underscores - isalnum
 
 
-#   if user[0].islower():
-#     print(username)
-#   else: 
-#     print("Invalid username. Please select a new username")
+#  
 
 #   if user.isnalum():
 #     print(username)
