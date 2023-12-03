@@ -15,7 +15,7 @@ while True: #will run until done
   user_input = input('What is your username? ')
   password_input = input('What is your password? ')
  
-  #testing for capital letter 
+  #testing for starts with lowercase
   if user_input[0].islower() == False:
     print("Invalid username. Please select a new username")
     continue
@@ -26,8 +26,6 @@ while True: #will run until done
     continue
 
   print("I am here")
-
-
 
 
 #   # start username testing #2
