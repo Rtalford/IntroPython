@@ -49,6 +49,10 @@ while True: #will run until done
     print("Invalid password. Please select a new password.")
     continue
 
+  if special_symbols in password_input > 1 == False:  
+    print("Invalid password. Please select a new password.")
+    continue
+
   if password_input.strip() == False: 
      print("Invalid password. Please select a new password.")
      continue
@@ -57,13 +61,12 @@ while True: #will run until done
 
 
 
+# NOTES
 
 #   # start username testing #2
 #   #must start with a lowercase letter: index[0] on a string/tested first string to see if it is upper or lowercase - bracket notion, index zero   
 #   #only has letters, numbers and underscores - isalnum
 
-
-#  
 
 #   if user.isalum():
 #     print(username)
@@ -90,7 +93,12 @@ while True: #will run until done
 #     print("Invalid password. Please select a new password.")
 #     continue
 
-#            if special_symbols <= 1 in password: 
+#       Contains at lease 1 special character:  special_symbols <= 1 in password: 
+
+  # if special_symbols in password_input > 1 == False:  
+  #   print("Invalid password. Please select a new password.")
+  #   continue
+
 
 #       Contains no spaces: password.strip():
 
@@ -98,10 +106,7 @@ while True: #will run until done
   #    print("Invalid password. Please select a new password.")
   #    continue
    
-          
-#   break
 
-#   pass
 
 # # Logging In 
 # if user_input  == username:
