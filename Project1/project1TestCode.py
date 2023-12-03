@@ -17,20 +17,35 @@ while True: #will run until done
  
   #testing for starts with lowercase letter
   if user_input[0].islower() == False:
-    print("Invalid username. Please select a new username")
+    print("Invalid username. Please select a new username.")
     continue
 
   # testing for "taken usernames"
   if user_input in taken_usernames:
-    print("Username taken. Please select a new Username")
+    print("Username taken. Please select a new Username.")
     continue
 
   #testing for only contains letters and numbers
-  if user_input.isnalum() == False:
-    print("Invalid username. Please select a new username")
+  if user_input.isalnum() == False:
+    print("Invalid username. Please select a new username.")
     continue 
 
-  print("I am here")
+  #testing for underscores
+  # if user_input: 
+  #   continue
+
+  if len(password_input) <= 8: 
+     if password_input.isupper() > 1 or not password_input.isupper(): 
+       if password_input.islower() > 1 or not password_input.islower(): 
+         if password_input.isdigit() < 1: 
+           if special_symbols <= 1 in password_input: 
+             if password_input.strip():
+                print(password_input)
+              else: 
+               print("Invalid password")
+
+   
+print("I am here")
 
 
 
@@ -38,11 +53,6 @@ while True: #will run until done
 #   # start username testing #2
 #   #must start with a lowercase letter: index[0] on a string/tested first string to see if it is upper or lowercase - bracket notion, index zero   
 #   #only has letters, numbers and underscores - isalnum
-
-
-#  
-
-
 
 
 #   else: 

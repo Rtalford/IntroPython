@@ -35,7 +35,7 @@ while True: #will run until done
 
 #  
 
-#   if user.isnalum():
+#   if user.isalum():
 #     print(username)
 #   else: 
 #     print("Invalid username. Please select a new username")
