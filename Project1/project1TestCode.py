@@ -34,7 +34,14 @@ while True: #will run until done
     print("Username taken. Please select a new Username")
     continue
 
+  # testing for password requirements
+  if (len(password_input) <= 8) == False:
+    print("Invalid password. Please select a new password.")
+    continue
+
   print("I am here")
+
+
 
 
 #   # start username testing #2
@@ -49,9 +56,6 @@ while True: #will run until done
 #   else: 
 #     print("Invalid username. Please select a new username")
 
-
-#   else: 
-#     print(username)
 
 # # still need a code to check for "_"
 
