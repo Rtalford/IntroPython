@@ -20,6 +20,15 @@ while True: #will run until done
     print("Invalid username. Please select a new username")
     continue
 
+  #testing for only contains letters and numbers
+  if user_input.isalnum() == False:
+    print("Invalid username. Please select a new username.")
+    continue 
+
+  #testing for underscores
+  # if user_input: 
+  #   continue
+
   # testing for "taken usernames"
   if user_input in taken_usernames:
     print("Username taken. Please select a new Username")
