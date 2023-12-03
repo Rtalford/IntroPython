@@ -26,7 +26,9 @@ while True: #will run until done
     continue 
 
   #testing for underscores
-  # if user_input: 
+
+  # if valid_character in user_input == False:  
+  #   print("Invalid username. Please select a new username.")
   #   continue
 
   # testing for "taken usernames"
@@ -76,13 +78,13 @@ while True: #will run until done
 # while True: 
 #    if len(password) <= 8: COMPLETED
 
-#      if password.isupper() > 1 or not password.isupper(): 
+#      Upper and lowercase: password.isupper() > 1 or not password.isupper(): 
 #      
 # if (password_input.isupper() > 1) and (password_input.isupper() > 1) == False: 
 #     print("Invalid password. Please select a new password.")
 #     continue
 
-#          if password.isdigit() < 1: 
+#      Contains at lease 1 digit: password.isdigit() < 1: 
 
 #  if password_input.isdigit() > 1 == False:
 #     print("Invalid password. Please select a new password.")
@@ -90,10 +92,11 @@ while True: #will run until done
 
 #            if special_symbols <= 1 in password: 
 
-#              if password.strip():
-#                 print(password)
-#               else: 
-#                print("Invalid password")
+#       Contains no spaces: password.strip():
+
+  # if password_input.strip() == False: 
+  #    print("Invalid password. Please select a new password.")
+  #    continue
    
           
 #   break
