@@ -39,6 +39,18 @@ while True: #will run until done
     print("Invalid password. Please select a new password.")
     continue
 
+  if (password_input.isupper() > 1) and (password_input.isupper() > 1) == False: 
+    print("Invalid password. Please select a new password.")
+    continue
+
+  if password_input.isdigit() > 1 == False:
+    print("Invalid password. Please select a new password.")
+    continue
+
+  if password_input.strip() == False: 
+     print("Invalid password. Please select a new password.")
+     continue
+
   print("I am here")
 
 
@@ -62,11 +74,22 @@ while True: #will run until done
 #   # start password testing #3
 
 # while True: 
-#    if len(password) <= 8: 
+#    if len(password) <= 8: COMPLETED
+
 #      if password.isupper() > 1 or not password.isupper(): 
-#        if password.islower() > 1 or not password.islower(): 
+#      
+# if (password_input.isupper() > 1) and (password_input.isupper() > 1) == False: 
+#     print("Invalid password. Please select a new password.")
+#     continue
+
 #          if password.isdigit() < 1: 
+
+#  if password_input.isdigit() > 1 == False:
+#     print("Invalid password. Please select a new password.")
+#     continue
+
 #            if special_symbols <= 1 in password: 
+
 #              if password.strip():
 #                 print(password)
 #               else: 
