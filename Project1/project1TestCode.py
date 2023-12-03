@@ -34,33 +34,25 @@ while True: #will run until done
   # if user_input: 
   #   continue
 
-  if len(password_input) <= 8: 
-     if password_input.isupper() > 1 or not password_input.isupper(): 
-       if password_input.islower() > 1 or not password_input.islower(): 
-         if password_input.isdigit() < 1: 
-           if special_symbols <= 1 in password_input: 
-             if password_input.strip():
-                print(password_input)
-              else: 
-               print("Invalid password")
 
-   
+  #testing for password requirements 
+  if len(password_input) <= 8 == False: 
+    print("Invalid password")
+    continue 
+             
 print("I am here")
 
 
 
-
-#   # start username testing #2
-#   #must start with a lowercase letter: index[0] on a string/tested first string to see if it is upper or lowercase - bracket notion, index zero   
-#   #only has letters, numbers and underscores - isalnum
-
-
-#   else: 
-#     print(username)
-
 # # still need a code to check for "_"
 
 #   # start password testing #3
+
+    # if password_input.isupper() > 1 or not password_input.isupper(): 
+    #    if password_input.islower() > 1 or not password_input.islower(): 
+    #      if password_input.isdigit() < 1: 
+    #        if special_symbols <= 1 in password_input: 
+    #          if password_input.strip():
 
 # while True: 
 #    if len(password) <= 8: 
