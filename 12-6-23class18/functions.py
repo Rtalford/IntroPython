@@ -23,14 +23,13 @@ Write a function that will loop through a string and print whether a character i
 
 # def vowel(word):
 #   #Is it a vowel or not? 
-#   vowels = 'aeiou'
-#   for w in word:
-#     if w in vowels:
-#       print(f'{w} is a vowel')
-#     else: 
-#       print(f'{w} is a constant')
-
-# vowel('hello')
+#     output = ""
+#     for w in word:
+#         if w in 'aeioug':
+#             output += w 
+#     print(output)
+      
+# vowel('goodbye')
 
 '''
 Example
@@ -39,10 +38,9 @@ Surface Area = (2*l*w) + (2*l*h) + (2*w*h)
 '''
 # def surface_area_box(width, length, height): 
 #   surface_area = (2*length*width) + (2*length*height) +(2*width*height)
-#   return surface_area
+#   print (surface_area)
 
-# print(surface_area_box(4, 3, 1))
-
+# surface_area_box(4, 3, 1)
 
 '''
 Exercise
@@ -91,18 +89,18 @@ Exercise
 Write a function that takes a list and a value, and removes the value until it no longer exists in the list.
 Return how many times the value was removed.
 '''
-def remove_and_count(my_list, my_value):
-    #Remove values from list and return a count
-    count = 0
-    while my_value in my_list:
-        my_list.remove(my_value)
-        counter += 1
-    return counter
+# def remove_and_count(my_list, my_value):
+#     #Remove values from list and return a count
+#     count = 0
+#     while my_value in my_list:
+#         my_list.remove(my_value)
+#         counter += 1
+#     return counter
 
-my_list = [1,2, 3, 4, 5, 5, 5, 5, 5, 5]
-my_value = 5 
+# my_list = [1,2, 3, 4, 5, 5, 5, 5, 5, 5]
+# my_value = 5 
 
-print(remove_and_count([1,2, 3, 4, 5, 5, 5, 5, 5, 5], 2))
+# print(remove_and_count([1,2, 3, 4, 5, 5, 5, 5, 5, 5], 2))
 
 
 '''
@@ -119,3 +117,10 @@ transactions = [{'id': 'a', 'amount': 500, 'type': 'deposit'},\
 transactions = [{'id': 'a', 'amount': 500, 'type': 'deposit'},\
                 {'id': 'b', 'amount': 350, 'type': 'deposit'},\
                 {'id': 'a', 'amount': 450, 'type': 'withdrawal'}]
+
+
+def birth_year(fname, year): 
+  age = 2023 - year 
+  print(f'Hello, {fname}. You are {age}.')
+
+birth_year('Reynelle', 1986)
