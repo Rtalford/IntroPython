@@ -15,6 +15,13 @@ class Employee:
     #return f'({self.name}, {self.job_title}, {self.department}, {self.salary}, 
     #{self.hire_year})'
 
+  #def__years_worked__():
+    
+  #def__total_expense__()
+
+  #add Accessor method
+    
+  #add Mutator method 
 
   #class instance or object created 
     
