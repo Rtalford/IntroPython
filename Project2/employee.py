@@ -1,4 +1,4 @@
-# from datetime import datetime
+from datetime import datetime
 
 class Employee: 
 
@@ -11,11 +11,16 @@ class Employee:
     self.salary = salary
     self.hire_year = hire_year
 
+  #def__str__(self):
+    #return f'({self.name}, {self.job_title}, {self.department}, {self.salary}, 
+    #{self.hire_year})'
+
 
   #class instance or object created 
     
   first_employee = ("Florence", "Software Engineer", "Python Developer", 195000, 2023)
   second_employee = ("Thelma", "Chemist", "Food & Drug Adminstration", 585000, 1990)
 
+  #printing after adding __str__ magic method 
   print(first_employee)
   print(second_employee)
