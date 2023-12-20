@@ -20,9 +20,12 @@ class Employee:
     
   #def__total_expense__()
 
-  #add Accessor method
+  #add Accessor method : returns an attribute to the user
     
-  #add Mutator method 
+  
+    
+  #add Mutator method : lets the user change the attribute
+    
 
   #class instance or creating objects / class objects
     
@@ -35,3 +38,4 @@ print(second_employee)
 
   #Subtraction __sub__
 #years_worked = current_year - hire_year
+#print(years_worked)
