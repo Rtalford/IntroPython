@@ -58,8 +58,15 @@ print(second_employee)
 #total_expense
 
   #Accessor method 
+
 #print(first_employee.get_name())
 #print(first_employee.get_job_title())
 #print(first_employee.get_department())
 #print(first_employee.get_salary())
 #print(first_employee.get_hire_year())
+
+#print(second_employee.get_name())
+#print(second_employee.get_job_title())
+#print(second_employee.get_department())
+#print(second_employee.get_salary())
+#print(second_employee.get_hire_year())
