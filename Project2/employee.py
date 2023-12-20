@@ -2,7 +2,7 @@ from datetime import datetime
 
 class Employee: 
 
-  #constructor with __init__
+  #constructor(initializer method) with __init__: builds class
 
   def __init__(self, name = "", job_title = "", department = "", salary = 0, hire_year = 0): 
     self.name = name 
@@ -25,9 +25,9 @@ class Employee:
 
   #class instance or object created 
     
-  first_employee = ("Florence", "Software Engineer", "Python Developer", 195000, 2023)
-  second_employee = ("Thelma", "Chemist", "Food & Drug Adminstration", 585000, 1990)
+first_employee = Employee("Florence", "Software Engineer", "Python Developer", 195000, 2023)
+second_employee = Employee("Thelma", "Chemist", "Food & Drug Adminstration", 585000, 1990)
 
   #printing after adding __str__ magic method 
-  print(first_employee)
-  print(second_employee)
+print(first_employee)
+print(second_employee)
