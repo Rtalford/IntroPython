@@ -40,6 +40,21 @@ class Employee:
     
   #add Mutator method : lets the user change the attribute
     
+  #def set_name(self, new_name):
+    #self.name = new_name
+
+  #def set_job_title(self, new_job_title):
+    #self.job_title = new_job_title
+
+  #def set_department(self, new_department):
+    #self.department = new_department
+
+  #def set_salary(self, new_salary):
+    #self.salary = new_salary
+
+  #def set_hire_year(self, new_hire_year):
+    #self.hire_year = new_hire_year
+    
 
   #class instance or creating objects / class objects
     
