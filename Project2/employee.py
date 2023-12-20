@@ -53,3 +53,13 @@ print(second_employee)
   #Subtraction __sub__
 #years_worked = current_year - hire_year
 #print(years_worked)
+
+  #Subtraction __sub__
+#total_expense
+
+  #Accessor method 
+#print(first_employee.get_name())
+#print(first_employee.get_job_title())
+#print(first_employee.get_department())
+#print(first_employee.get_salary())
+#print(first_employee.get_hire_year())
