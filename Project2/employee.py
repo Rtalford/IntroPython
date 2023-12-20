@@ -89,7 +89,7 @@ print(second_employee)
   #Mutator Method 
 
 #print(first_employee)
-#first_employee.set_name()
+#first_employee.set_name(insert value?)
 #print(first_employee)
 
 #print(first_employee)
@@ -107,3 +107,23 @@ print(second_employee)
 #print(first_employee)
 #first_employee.set_hire_year()
 #print(first_employee)
+
+#print(second_employee)
+#second_employee.set_name()
+#print(second_employee)
+
+#print(second_employee)
+#second_employee.set_job_title()
+#print(second_employee)
+
+#print(second_employee)
+#second_employee.set_department()
+#print(second_employee)
+
+#print(second_employee)
+#second_employee.set_salary()
+#print(second_employee)
+
+#print(second_employee)
+#second_employee.set_hire_year()
+#print(second_employee)
