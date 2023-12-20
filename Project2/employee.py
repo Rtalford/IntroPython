@@ -85,3 +85,25 @@ print(second_employee)
 #print(second_employee.get_department())
 #print(second_employee.get_salary())
 #print(second_employee.get_hire_year())
+
+  #Mutator Method 
+
+#print(first_employee)
+#first_employee.set_name()
+#print(first_employee)
+
+#print(first_employee)
+#first_employee.set_job_title()
+#print(first_employee)
+
+#print(first_employee)
+#first_employee.set_department()
+#print(first_employee)
+
+#print(first_employee)
+#first_employee.set_salary()
+#print(first_employee)
+
+#print(first_employee)
+#first_employee.set_hire_year()
+#print(first_employee)
