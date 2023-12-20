@@ -22,6 +22,20 @@ class Employee:
 
   #add Accessor method : returns an attribute to the user
     
+  #def get_name(self): 
+    #return name.x 
+
+  #def get_job_title(self): 
+    #return job_title.x 
+
+  #def get_department(self): 
+    #return department.x 
+
+  #def get_salary(self): 
+    #return salary.x 
+
+  #def get_hire_year(self): 
+    #return hire_year.x 
   
     
   #add Mutator method : lets the user change the attribute
