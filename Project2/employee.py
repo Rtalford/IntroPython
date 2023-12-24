@@ -19,8 +19,9 @@ class Employee:
     #return Employee(current_year - self.hire_year)
     
   #def__total_expense__()
+    
 
-  #add Accessor method : returns an attribute to the user
+  #Accessor method : returns an attribute to the user
     
   #def get_name(self): 
     #return self.name
@@ -38,7 +39,7 @@ class Employee:
     #return self.hire_year 
   
     
-  #add Mutator method : lets the user change the attribute
+  #Mutator method : lets the user change the attribute
     
   #def set_name(self, new_name):
     #self.name = new_name
