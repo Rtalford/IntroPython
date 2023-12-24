@@ -15,7 +15,7 @@ class Employee:
     #return f'({self.name}, {self.job_title}, {self.department}, {self.salary}, 
     #{self.hire_year})'
 
-  #? Do we need to use the other build-in methods; __eq__, __add__,
+  #? Do we need to use the other build-in class methods; __eq__, __add__,
 
   #def__years_worked__(self, other):   #__sub__ ?
     #return Employee(current_year - self.hire_year)
@@ -68,8 +68,8 @@ second_employee = Employee("Thelma", "Chemist", "Food & Drug Adminstration", 585
 print(first_employee)
 print(second_employee)
 
-  #Subtraction __sub__
-#years_worked = current_year - hire_year
+  #Subtraction __sub__ ? not sure how to write the code below. should be different from the __sub__ code above. 
+#years_worked_employee_1 = current_year - hire_year
 #print(years_worked)
 
   #Subtraction __sub__
@@ -92,7 +92,7 @@ print(second_employee)
   #Mutator Method 
 
 #print(first_employee)
-#first_employee.set_name(insert value?)
+#first_employee.set_name(insert value?) #mutator method changes name
 #print(first_employee)
 
 #print(first_employee)
