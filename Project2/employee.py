@@ -15,13 +15,15 @@ class Employee:
     #return f'({self.name}, {self.job_title}, {self.department}, {self.salary}, 
     #{self.hire_year})'
 
+  #? Do we need to use the other build-in methods; __eq__, __add__, __sub__
+
   #def__years_worked__(self, other):
     #return Employee(current_year - self.hire_year)
     
   #def__total_expense__()
     
 
-  #Accessor method : returns an attribute to the user
+  #Accessor method : returns an attribute to the user/ access attributes 
     
   #def get_name(self): 
     #return self.name
