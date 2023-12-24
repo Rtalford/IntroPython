@@ -146,9 +146,27 @@ Use a try-except statement to ensure the user inputs a float.
 If the user inputs a negative number, raise a ValueError that will also be caught by the except statement. Make sure to write a descriptive message in the exception you raise.
 '''
 
+# while True:
+#   try:
+#     user_input = float(input("Please enter your number"))
+#     if user_input < 0:
+#       raise ValueError
+#   except ValueError:
+#     print("You must enter a float and it cannot be negative")
+#   else:
+#     result = math.sqrt(user_input)
+#     print(result)
+
 # Propogating exceptions (functions)
 
 
+def average_two_nums(num1, num2):
+    return(num1 + num2) / 2 
+
+try:
+    print(average_two_nums(5, 3))
+except: 
+    print("We can catch the error in the function call")
 
 # Function that calculates average of two numbers
 
@@ -160,6 +178,16 @@ The price should be a positive number, and the tax rate should be between 0 and 
 Now, test your implementation by asking the user to input a product price and sales tax rate, and call your function. Catch any potential ValueError raised by the function.
 '''
 
+def calculate_final_price(product_price, sales_tax_rate): 
+    
+    if product_price < 1: 
+        raise ValueError("Price must be positive")
+    
+    if not 0 <= sales_tax_rate < 1 #Interval Comparison
+        raise ValueError
+    
+    total_tax = product_price * sales_tax_rate
+    
 
 
 

@@ -77,6 +77,16 @@ my_fifth_point = Point2d(100, 150)
 # print(my_second_point.get_y())
 # print(my_fifth_point.get_y())
 
+#Lets look at defult parameters 
+
+#default_object = Point2d()
+#print(default_object)
+
+#default_object.set_x(5)
+#default_object.set_y(50)
+
+#print(default_object)
+
 # Mutator Method
 # print(my_fifth_point)
 # my_fifth_point.set_x(120) # mutator method changes x
@@ -112,3 +122,6 @@ class Date:
 
     def is_leap_year(self):
          pass
+
+    sample_date = Date()
+    print(sample_date)
