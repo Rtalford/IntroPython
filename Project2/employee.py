@@ -15,9 +15,9 @@ class Employee:
     #return f'({self.name}, {self.job_title}, {self.department}, {self.salary}, 
     #{self.hire_year})'
 
-  #? Do we need to use the other build-in methods; __eq__, __add__, __sub__
+  #? Do we need to use the other build-in methods; __eq__, __add__,
 
-  #def__years_worked__(self, other):
+  #def__years_worked__(self, other):   #__sub__ ?
     #return Employee(current_year - self.hire_year)
     
   #def__total_expense__()
