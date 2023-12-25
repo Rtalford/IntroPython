@@ -11,7 +11,7 @@ class Employee:
     self.salary = salary
     self.hire_year = hire_year
 
-  def__str__(self):
+  def __str__(self):
     return f'({self.name}, {self.job_title}, {self.department}, {self.salary}, 
     {self.hire_year})'
    
