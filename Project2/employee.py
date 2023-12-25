@@ -26,9 +26,11 @@ class Employee:
       #def __years_worked__(self):
         #today = datetime.datetime.now()
         #year = today.year
-        #return year -self.hire_year
+        #return year - self.hire_year
     
   #def__total_expense__()
+
+  # once you find years_worked, then use to find __total_expense__
     
 
   #Accessor method : returns an attribute to the user/ access attributes 
@@ -86,7 +88,6 @@ print(second_employee)
 
   #Subtraction __sub__
 #total_expense   #the result of year_worked funcition to calculate the total_expense function
-
 
 
   #Accessor method 
@@ -147,3 +148,7 @@ print(second_employee)
 
 #testing __It__
 #printing(date1 < date2)
+
+# today = datetime.datetime.now()
+# year = today.year
+# print(year)
