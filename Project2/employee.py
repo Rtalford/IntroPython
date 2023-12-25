@@ -25,6 +25,8 @@ class Employee:
   
       #def __years_worked__(self):
         #today = datetime.datetime.now()
+        #year = today.year
+        #return year -self.hire_year
     
   #def__total_expense__()
     
