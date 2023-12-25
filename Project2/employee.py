@@ -71,7 +71,8 @@ class Employee:
     self.hire_year = new_hire_year
     
   #sample_date = Date()  # created an object/ instance of the class Date
-  #date1 = 
+  #date1 = 2023
+  #date2 =
   #print(sample_date)
 
   #class instance or creating objects / class objects
@@ -88,7 +89,9 @@ print(second_employee)
 #print(years_worked)
 
   #Subtraction __sub__
-#total_expense
+#total_expense   #the result of year_worked funcition to calculate the total_expense function
+
+
 
   #Accessor method 
 
@@ -147,4 +150,4 @@ print(second_employee)
 #print(second_employee)
 
 #testing __It__
-#printing()
+#printing(date1 < date2)
