@@ -16,9 +16,21 @@ class Employee:
     {self.hire_year})'
    
   #? Do we need to use the other build-in class methods; __eq__, __add__,
-
+      #def __It__(self, other)
+  
   #def__years_worked__(self, other):   #__sub__ ?
     #return Employee(current_year - self.hire_year)
+  
+      #module used to find current_year/ then use to figure out ___years_worked__
+      #def __It__(self, other):
+      #selfdate = datetime(self.year, self.month, self.day)
+      #otherdate = datetime(other.year, self.month, self.day)
+      #if selfdate < otherdate:
+          #return True 
+      #return False
+  
+      #def __It__(self, other): 
+      #current_year = datetime(self.)
     
   #def__total_expense__()
     
@@ -58,6 +70,9 @@ class Employee:
   def set_hire_year(self, new_hire_year):
     self.hire_year = new_hire_year
     
+  #sample_date = Date()  # created an object/ instance of the class Date
+  #date1 = 
+  #print(sample_date)
 
   #class instance or creating objects / class objects
     
@@ -130,3 +145,6 @@ print(second_employee)
 #print(second_employee)
 #second_employee.set_hire_year()
 #print(second_employee)
+
+#testing __It__
+#printing()
