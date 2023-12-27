@@ -19,20 +19,11 @@ class Employee:
     year = today.year
     return year - self.hire_year
    
-  #? Do we need to use the other build-in class methods; __eq__, __add__,
-      #def __It__(self, other)
-  
-  #def__years_worked__(self, other):   #__sub__ ?
-    #return Employee(current_year - self.hire_year)
-  
-      #module used to find current_year/ then use to figure out ___years_worked__
-  
-      #def __years_worked__(self):
-        #today = datetime.datetime.now()
-        #year = today.year
-        #return year - self.hire_year
-    
-  #def__total_expense__()
+
+  def total_expense(self):
+    return self.salary * self.years_worked()
+
+
 
   # once you find years_worked, then use to find __total_expense__
     
@@ -72,23 +63,23 @@ class Employee:
   def set_hire_year(self, new_hire_year):
     self.hire_year = new_hire_year
     
-  #sample_date = Date()  # created an object/ instance of the class Date
-  #date1 = 2023
-  #date2 =
-  #print(sample_date)
 
   #class instance or creating objects / class objects
     
 first_employee = Employee("Florence", "Software Engineer", "Python Developer", 195000, 2020)
 second_employee = Employee("Thelma", "Chemist", "Food & Drug Adminstration", 585000, 1990)
 
-  #printing after adding __str__ magic method 
+#printing after adding __str__ magic method 
 # print(first_employee)
 # print(second_employee)
 
 #testing years_worked method
-print(first_employee.years_worked())
-print(second_employee.years_worked())
+# print(first_employee.years_worked())
+# print(second_employee.years_worked())
+
+#testing total_expense method
+print(first_employee.total_expense())
+print(second_employee.total_expense())
 
   #Subtraction __sub__ ? not sure how to write the code below. should be different from the __sub__ code above. 
 #years_worked_employee_1 = current_year - hire_year
