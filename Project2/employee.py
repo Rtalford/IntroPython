@@ -1,4 +1,4 @@
-from datetime import datetime
+import datetime
 
 class Employee: 
 
@@ -12,8 +12,12 @@ class Employee:
     self.hire_year = hire_year
 
   def __str__(self):
-    return f'({self.name}, {self.job_title}, {self.department}, {self.salary}, 
-    {self.hire_year})'
+    return f'{self.name}, {self.job_title}, {self.department}, {self.salary}, {self.hire_year}'
+  
+  def years_worked(self):
+    today = datetime.datetime.now()
+    year = today.year
+    return year - self.hire_year
    
   #? Do we need to use the other build-in class methods; __eq__, __add__,
       #def __It__(self, other)
@@ -75,19 +79,23 @@ class Employee:
 
   #class instance or creating objects / class objects
     
-first_employee = Employee("Florence", "Software Engineer", "Python Developer", 195000, 2023)
+first_employee = Employee("Florence", "Software Engineer", "Python Developer", 195000, 2020)
 second_employee = Employee("Thelma", "Chemist", "Food & Drug Adminstration", 585000, 1990)
 
   #printing after adding __str__ magic method 
-print(first_employee)
-print(second_employee)
+# print(first_employee)
+# print(second_employee)
+
+#testing years_worked method
+print(first_employee.years_worked())
+print(second_employee.years_worked())
 
   #Subtraction __sub__ ? not sure how to write the code below. should be different from the __sub__ code above. 
 #years_worked_employee_1 = current_year - hire_year
 #print(years_worked)
 
   #Subtraction __sub__
-#total_expense   #the result of year_worked funcition to calculate the total_expense function
+#total_expense   #the result of year_worked function to calculate the total_expense function
 
 
   #Accessor method 
