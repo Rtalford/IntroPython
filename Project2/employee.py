@@ -23,11 +23,7 @@ class Employee:
   def total_expense(self):
     return self.salary * self.years_worked()
 
-
-
-  # once you find years_worked, then use to find __total_expense__
     
-
   #Accessor method : returns an attribute to the user/ access attributes 
     
   def get_name(self): 
@@ -70,24 +66,19 @@ first_employee = Employee("Florence", "Software Engineer", "Python Developer", 1
 second_employee = Employee("Thelma", "Chemist", "Food & Drug Adminstration", 585000, 1990)
 
 #printing after adding __str__ magic method 
+
 # print(first_employee)
 # print(second_employee)
 
 #testing years_worked method
+
 # print(first_employee.years_worked())
 # print(second_employee.years_worked())
 
 #testing total_expense method
-print(first_employee.total_expense())
-print(second_employee.total_expense())
 
-  #Subtraction __sub__ ? not sure how to write the code below. should be different from the __sub__ code above. 
-#years_worked_employee_1 = current_year - hire_year
-#print(years_worked)
-
-  #Subtraction __sub__
-#total_expense   #the result of year_worked function to calculate the total_expense function
-
+# print(first_employee.total_expense())
+# print(second_employee.total_expense())
 
   #Accessor method 
 
@@ -103,26 +94,26 @@ print(second_employee.total_expense())
 #print(second_employee.get_salary())
 #print(second_employee.get_hire_year())
 
-  #Mutator Method 
+  #Mutator Methods
+ 
+# print(first_employee.get_name())
+# first_employee.set_name("Francis") #mutator method changes name
+# print(first_employee.get_name())
+
+# print(first_employee)
+# first_employee.set_job_title("Doctor")
+# print(first_employee)
 
 #print(first_employee)
-#first_employee.set_name(insert value?) #mutator method changes name
-#print(first_employee)
-
-#print(first_employee)
-#first_employee.set_job_title()
-#print(first_employee)
-
-#print(first_employee)
-#first_employee.set_department()
-#print(first_employee)
-
-#print(first_employee)
-#first_employee.set_salary()
+#first_employee.set_department("Cardiac Surgery")
 #print(first_employee)
 
 #print(first_employee)
-#first_employee.set_hire_year()
+#first_employee.set_salary(725000)
+#print(first_employee)
+
+#print(first_employee)
+#first_employee.set_hire_year(1985)
 #print(first_employee)
 
 #print(second_employee)
@@ -145,9 +136,3 @@ print(second_employee.total_expense())
 #second_employee.set_hire_year()
 #print(second_employee)
 
-#testing __It__
-#printing(date1 < date2)
-
-# today = datetime.datetime.now()
-# year = today.year
-# print(year)
