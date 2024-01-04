@@ -27,7 +27,8 @@ class BankAccount:
   def withdraw_funds(self, amount):
      t = {'owner': self.owner, 'type': 'withdrawal', 'amount': {amount}}
      self.transactions.append(t)
-     
+     print(self.transactions)
+
 
 
   # # get_balance()
@@ -62,3 +63,7 @@ Florence_account = BankAccount('Florence', 4000)
 Florence_account.deposit_funds(50)
 Florence_account.deposit_funds(200)
 
+#testing withdrawals
+
+Florence_account.withdraw_funds(25)
+Florence_account.withdraw_funds(50)
