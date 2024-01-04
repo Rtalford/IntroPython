@@ -1,5 +1,5 @@
 import os
-import pandas as pandas
+import pandas as pd
 
 class BankAccount:
   
@@ -63,10 +63,12 @@ class BankAccount:
 
 
   # # save_transaction()
-  # def save_transaction(self):
-  #   pass
+  def save_transaction(self):
+     os.chdir(os.path.dirname(os.path.abspath(__file__))) #file will be saved in the same directory
+     df = pd.DataFrame(self.transactions)
+     df.to_csv('transaction_list.csv', index=False, sep='\t')
+
       
-    
 # Create my class instance 
 Florence_account = BankAccount('Florence', 4000)
 Thelma_account = BankAccount('Thelma', 2000000)
@@ -97,3 +99,6 @@ Florence_account.get_transaction_count()
 
 #testing transaction history
 Florence_account.get_transaction_history()
+
+#testing save transactions
+Florence_account.save_transactions()
