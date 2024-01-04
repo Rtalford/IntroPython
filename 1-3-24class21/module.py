@@ -25,10 +25,22 @@ class BankAccount:
 
   # # withdraw_funds()
   def withdraw_funds(self, amount):
-     t = {'owner': self.owner, 'type': 'withdrawal', 'amount': {amount}}
-     self.transactions.append(t)
-     print(self.transactions)
+     deposits = sum(s['amount'] for s in self.transactions if s['type'] == 'deposit')
+     total_balance = deposits +  self.balance
 
+     if total_balance < amount:
+        print("Insufficent funds")
+     else: 
+         t = {'owner': self.owner, 'type': 'withdrawal', 'amount': {amount}}
+         self.transactions.append(t)
+         print(self.transactions)
+
+     print(f'My Deposits are {deposits} and my inital balance is 
+     {total_balance}')
+  
+     
+     
+   
 
 
   # # get_balance()
@@ -67,3 +79,4 @@ Florence_account.deposit_funds(200)
 
 Florence_account.withdraw_funds(25)
 Florence_account.withdraw_funds(50)
+Florence_account.withdraw_funds(5000)
