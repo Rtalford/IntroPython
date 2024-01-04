@@ -45,16 +45,22 @@ class BankAccount:
      
 
   # # get_transactions()
-  # def get_transactions(self):
-  #   pass
+  def get_transactions(self):
+     print(self.transactions)
+
 
   # # transaction_count()
-  # def transaction_count(self):
-  #   pass
+  def get_transaction_count(self):
+     print(len(self.transactions))
+ 
 
   # # transaction_history()
-  # def transaction_history(self):
-  #   pass
+  def get_transaction_history(self):
+     type = [s['type'] for s in self.transactions]
+     amt = [s['amount'] for s in self.transactions]
+     for acct_type, acct_amt in zip(type, amt):
+      print(f'{acct_type} in the amount of {acct_amt}')
+
 
   # # save_transaction()
   # def save_transaction(self):
@@ -83,3 +89,11 @@ Thelma_account.withdraw_funds(10000)
 
 #testing get_balance
 
+#testing get_transactions
+Florence_account.get_transactions()
+
+#testing transaction count
+Florence_account.get_transaction_count()
+
+#testing transaction history
+Florence_account.get_transaction_history()
