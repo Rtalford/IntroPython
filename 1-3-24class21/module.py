@@ -31,21 +31,18 @@ class BankAccount:
      if total_balance < amount:
         print("Insufficent funds")
      else: 
-         t = {'owner': self.owner, 'type': 'withdrawal', 'amount': {amount}}
+         t = {'owner': self.owner, 'type': 'withdrawal', 'amount': amount}
          self.transactions.append(t)
-         print(self.transactions)
+         return self.transactions
 
-     print(f'My Deposits are {deposits} and my inital balance is 
-     {total_balance}')
-  
+  def get_balance(self):
+     deposits = sum(s['amount'] for s in self.transactions if s['type'] == 'deposit')
+     withdrawals = sum(s['amount'] for s in self.transactions if s['type'] == 'withdrawals')
+     balance = self.balance + (deposits - withdrawals)
+     print(f'Your account balance is ${balance:.2f}')
+    #  print(deposits, withdrawals, self.balance)
+     pass
      
-     
-   
-
-
-  # # get_balance()
-  # def get_balance(self):
-  #   pass
 
   # # get_transactions()
   # def get_transactions(self):
@@ -66,6 +63,7 @@ class BankAccount:
     
 # Create my class instance 
 Florence_account = BankAccount('Florence', 4000)
+Thelma_account = BankAccount('Thelma', 2000000)
 
 
 # testing __str__
@@ -80,3 +78,8 @@ Florence_account.deposit_funds(200)
 Florence_account.withdraw_funds(25)
 Florence_account.withdraw_funds(50)
 Florence_account.withdraw_funds(5000)
+
+Thelma_account.withdraw_funds(10000)
+
+#testing get_balance
+
